@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort</title>
+    <link rel="stylesheet" href="./selectionStyle.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <!-- Header Part of Bubble Sort-->
+    <div class="banner">
+        <div class="navbar">
+            <img src="Image/logo.png" alt="Logo not found" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="bubble.html">BUBBLE SORT</a></li>
+                <li><a href="selection.html">SELECTION SORT</a></li>
+                <li><a href="#footer">ABOUT</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>Let's Learn Selection Sort...</h1>
+            <p>Selection Sort is a widely used Sorting Algorithm in Data Structure & Algorithm.</p>
+        </div>
+    </div>
+
+    <!-- Middle Bubble Sort part... -->
+    <section class="course">
+        <h1>SELECTION SORT</h1>
+        <p>Selection Sort is the simplest sorting algorithm that finds the minimum element from the array and put that element in the appropriate position.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Algorithm</h3>
+                <dl>
+                    <dt>Step No: 01</dt>
+                    <dd>Start Algorithm.</dd>
+                    <dt>Step No: 02</dt>
+                    <dd>Set minimum (MIN) to location 0.</dd>
+                    <dt>Step No: 03</dt>
+                    <dd>Now, Search the minimum element from the remaining list.</dd>
+                    <dt>Step No: 04</dt>
+                    <dd>Swap with value at the minimum (MIN) location.</dd>
+                    <dt>Step No: 05</dt>
+                    <dd>Increment minimum (MIN) to point to next element.</dd>
+                    <dt>Step No: 06</dt>
+                    <dd>Repeat all the steps until the list is sorted.</dd>
+                    <dt>Step No: 07</dt>
+                    <dd>End Algorithm.</dd>
+                </dl>
+            </div>
+            <div class="course-col">
+                <h3>Working</h3>
+                <img src="Image/Selection_Working.png" alt="Selection Working image is not found.">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Bubble Sort Coding Section  -->
+
+    <section class="course">
+        <h1>Selection Sort in C & Java</h1>
+        <div class="row">
+            <img src="Image/Selection_C.png" alt="C code is not found." class="code">
+            <img src="Image/Selection_Java.png" alt="Java code is not found." class="code">
+        </div>
+    </section>
+
+    <!-- Know more about Bubble Sort Section. -->
+    <section class="course">
+        <h1>Know more about Selection Sort</h1>
+        <p>Let's discuss Advantages and Disadvantages of selection sort also discuss the time and space complexity of selection sort.</p>
+        <div class="row">
+            <div class="others-col">
+                <h3>Advantages</h3>
+                <ul>
+                    <li>Selection Sort is simple and easy to understand and implement.</li>
+                    <li>Selection Sort works well with small datasets.</li>
+                </ul>
+            </div>
+            <div class="others-col">
+                <h3>Disadvantages</h3>
+                <ul>
+                    <li>Selection Sort is not a stable sorting algorithm, meaning that elements with the same key value can't maintain their relative order in the sorted output.</li>
+                    <li>Selection sort has a time complexity of O(N<sup>2</sup>) which makes it very slow for large data sets.</li>
+                </ul>
+            </div>
+            <div class="others-col">
+                <h3>complexity</h3>
+                <ul>
+                    <li>Time Complexity: O(N<sup>2</sup>)</li>
+                    <li>Space Complexity: O(1)</li>
+                </ul>
+            </div>
+            <div class="others-col">
+                <h3>LeetCode Practice</h3>
+                <a href="https://leetcode.com/problems/sort-an-array/"><img src="Image/LeetCode.png" alt="Image Not found"></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section... -->
+    <section id="footer">
+        <div class="title-text">
+            <h1>About</h1>
+            <h2>More About Us</h2>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Social Links</h1>
+                <ul>
+                    <li><a href="https://www.facebook.com/subhankar.naskar.7792">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/in/subhankar-naskar-325221232/">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h1>Other Links</h1>
+                <ul>
+                    <li><a href="bubble.html">Bubble Sort</a></li>
+                    <li><a href="selection.html">Selection Sort</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p>Designed by Arka & Subhankar, All right reserved, 2023</p>
+        </div>
+    </section>
+    
+    <script>
+        // For Adding Scroll Effect
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	        speed: 500,
+	        speedAsDuration: true
+        });
+    </script>
+
+</body>
+</html>

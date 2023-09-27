@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort</title>
+    <link rel="stylesheet" href="./bubbleStyle.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <!-- Header Part of Bubble Sort-->
+    <div class="banner">
+        <div class="navbar">
+            <img src="Image/logo.png" alt="Logo not found" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="bubble.html">BUBBLE SORT</a></li>
+                <li><a href="selection.html">SELECTION SORT</a></li>
+                <li><a href="#footer">ABOUT</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>Let's Learn Bubble Sort...</h1>
+            <p>Bubble sort is a Sorting Algorithm, sometimes referred to as sinking sort</p>
+        </div>
+    </div>
+
+    <!-- Middle Bubble Sort part... -->
+    <section class="course">
+        <h1>BUBBLE SORT</h1>
+        <p>Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Algorithm</h3>
+                <dl>
+                    <dt>Step No: 01</dt>
+                    <dd>Start Algorithm.</dd>
+                    <dt>Step No: 02</dt>
+                    <dd>Traverse from left and compare adjacent elements and the higher one is placed at right side.</dd>
+                    <dt>Step No: 03</dt>
+                    <dd>In this way, the largest element is moved to the rightmost end at first.</dd>
+                    <dt>Step No: 04</dt>
+                    <dd>This process is then continued to find the second largest and place it and so on until the data is sorted.</dd>
+                    <dt>Step No: 05</dt>
+                    <dd>End Algorithm.</dd>
+                </dl>
+            </div>
+            <div class="course-col">
+                <h3>Working</h3>
+                <img src="Image/BubbleSort.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Bubble Sort Coding Section  -->
+
+    <section class="course">
+        <h1>Bubble Sort in C & Java</h1>
+        <div class="row">
+            <img src="Image/Bubble C.png" alt="Coding Image..." class="code">
+            <img src="Image/Bubble Java.png" alt="" class="code">
+        </div>
+    </section>
+
+    <!-- Know more about Bubble Sort Section. -->
+    <section class="course">
+        <h1>Know more about Bubble Sort</h1>
+        <p>Let's discuss Advantages and Disadvantages of bubble sort also discuss the time and space complexity of bubble sort.</p>
+        <div class="row">
+            <div class="others-col">
+                <h3>Advantages</h3>
+                <ul>
+                    <li>Bubble sort is easy to understand and implement.</li>
+                    <li>It does not require any additional memory space.</li>
+                    <li>It is a stable sorting algorithm, meaning that elements with the same key value maintain their relative order in the sorted output.</li>
+                </ul>
+            </div>
+            <div class="others-col">
+                <h3>Disadvantages</h3>
+                <ul>
+                    <li>Bubble sort has a time complexity of O(N<sup>2</sup>) which makes it very slow for large data sets.</li>
+                    <li>Bubble sort is a comparison-based sorting algorithm, which means that it requires a comparison operator to determine the relative order of elements in the input data set. It can limit the efficiency of the algorithm in certain cases.</li>
+                </ul>
+            </div>
+            <div class="others-col">
+                <h3>complexity</h3>
+                <ul>
+                    <li>Time Complexity: O(N<sup>2</sup>)</li>
+                    <li>Space Complexity: O(1)</li>
+                </ul>
+            </div>
+            <div class="others-col">
+                <h3>LeetCode Practice</h3>
+                <a href="https://leetcode.com/problems/sort-an-array/"><img src="Image/LeetCode.png" alt="Image Not found"></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section... -->
+    <section id="footer">
+        <div class="title-text">
+            <h1>About</h1>
+            <h2>More About Us</h2>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Social Links</h1>
+                <ul>
+                    <li><a href="https://www.facebook.com/subhankar.naskar.7792">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/in/subhankar-naskar-325221232/">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h1>Other Links</h1>
+                <ul>
+                    <li><a href="bubble.html">Bubble Sort</a></li>
+                    <li><a href="selection.html">Selection Sort</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p>Designed by Arka & Subhankar, All right reserved, 2023</p>
+        </div>
+    </section>
+
+    <script>
+        // For Adding Scroll Effect
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	        speed: 500,
+	        speedAsDuration: true
+        });
+    </script>
+    
+</body>
+</html>

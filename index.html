@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- This link is for scrooling effect. -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    <!-- Connect main Java Script file. -->
+    <script src="./script.js" defer></script>
+    <title>Sorting Visualization</title>
+</head>
+
+<body>
+    <!-- Header Part -->
+    <div class="banner">
+        <div class="navbar">
+            <img src="Image/logo.png" alt="Logo not found" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="bubble.html">BUBBLE SORT</a></li>
+                <li><a href="selection.html">SELECTION SORT</a></li>
+                <li><a href="#footer">ABOUT</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>Let's Visualize The Sorting Algorithms...</h1>
+            <p>Sorting is the process of arranging data into meaningful order <br> so that you can analyze it more effectively.</p>
+            <div>
+                <button type="button"><span></span>Let's Try</button>
+                <button type="button"><span></span>Let's Learn</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Part. (Apply Main part of the website)-->
+    <section id="feature">
+        <div class="title-text">
+            <p>Let's Try</p>
+        </div>
+    </section>
+
+    <div class="create">
+        <button id="b1" onclick="addBox()"><span></span>Generate Array</button>
+        <button id="b3" onclick="BubbleSort()"><span></span>Bubble Sort</button>
+        <button id="b2" onclick="SelectionSort()"><span></span>Selection Sort</button>
+    </div>
+    <div class="outerDiv" id="d1"></div>
+
+    <!-- Footer Section... -->
+    <section id="footer">
+        <div class="title-text">
+            <p>About</p>
+            <h2>More About Us</h2>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Social Links</h1>
+                <ul>
+                    <li><a href="https://www.facebook.com/subhankar.naskar.7792">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/in/subhankar-naskar-325221232/">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h1>Other Links</h1>
+                <ul>
+                    <li><a href="bubble.html">Bubble Sort</a></li>
+                    <li><a href="selection.html">Selection Sort</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p>Designed by Arka & Subhankar, All right reserved, 2023</p>
+        </div>
+    </section>
+</body>
+</html>
